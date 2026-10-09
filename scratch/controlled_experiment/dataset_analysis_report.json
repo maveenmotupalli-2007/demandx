@@ -1,0 +1,267 @@
+{
+  "audit_summary": {
+    "total_rows": 10000,
+    "total_columns": 33,
+    "duplicate_rows": 0,
+    "date_range": "2024-01-01 00:00:00 to 2026-08-31 00:00:00",
+    "sheets": [
+      "Full_Dataset",
+      "Demand_Model",
+      "Inventory_Model",
+      "Product_Master",
+      "Location_Master"
+    ],
+    "missing_values_by_column": {
+      "Festival_Event": 9679
+    }
+  },
+  "target_variable_statistics": {
+    "count": 10000,
+    "mean_mu": 101.0638,
+    "median_M": 81.0,
+    "std_dev_sigma": 72.27883059717588,
+    "variance_sigma_sq": 5224.229352495249,
+    "min": 5.0,
+    "max": 867.0,
+    "Q1_p25": 49.0,
+    "Q3_p75": 132.0,
+    "IQR": 83.0,
+    "skewness": 1.9111149303677293,
+    "kurtosis": 6.342692929771932,
+    "coefficient_of_variation_pct": 71.51802188041206
+  },
+  "anova_category": {
+    "F_stat": 1150.6094240161453,
+    "p_value": 0.0,
+    "breakdown": [
+      {
+        "category": "Snacks",
+        "count": 1604,
+        "mean": 187.13403990024938,
+        "std": 83.31638989024165,
+        "variance": 6941.620824342762,
+        "min": 25.0,
+        "max": 867.0
+      },
+      {
+        "category": "Beverages",
+        "count": 2195,
+        "mean": 128.0127562642369,
+        "std": 66.39725217961214,
+        "variance": 4408.595097003009,
+        "min": 5.0,
+        "max": 568.0
+      },
+      {
+        "category": "Dairy",
+        "count": 776,
+        "mean": 126.47938144329896,
+        "std": 55.07716194462963,
+        "variance": 3033.4937678749584,
+        "min": 29.0,
+        "max": 421.0
+      },
+      {
+        "category": "Packaged Food",
+        "count": 622,
+        "mean": 107.67684887459806,
+        "std": 44.13079021643373,
+        "variance": 1947.526645126883,
+        "min": 28.0,
+        "max": 331.0
+      },
+      {
+        "category": "Staples",
+        "count": 1449,
+        "mean": 74.25534851621808,
+        "std": 32.162629744871026,
+        "variance": 1034.4347521056625,
+        "min": 20.0,
+        "max": 257.0
+      },
+      {
+        "category": "Cooking Oil",
+        "count": 421,
+        "mean": 59.090261282660336,
+        "std": 26.695575256302348,
+        "variance": 712.6537382649021,
+        "min": 17.0,
+        "max": 200.0
+      },
+      {
+        "category": "Household",
+        "count": 981,
+        "mean": 47.91946992864424,
+        "std": 19.06531839317202,
+        "variance": 363.48636543302337,
+        "min": 13.0,
+        "max": 141.0
+      },
+      {
+        "category": "Personal Care",
+        "count": 1344,
+        "mean": 45.551339285714285,
+        "std": 19.44368613319576,
+        "variance": 378.05693044622916,
+        "min": 5.0,
+        "max": 145.0
+      },
+      {
+        "category": "Health Food",
+        "count": 608,
+        "mean": 38.91611842105263,
+        "std": 16.576452704048137,
+        "variance": 274.7787842495448,
+        "min": 9.0,
+        "max": 131.0
+      }
+    ]
+  },
+  "anova_season": {
+    "F_stat": 49.682962702486385,
+    "p_value": 7.272430099425173e-32,
+    "breakdown": [
+      {
+        "season": "Monsoon",
+        "count": 3488,
+        "mean": 93.17115825688073,
+        "std": 64.83975265294737,
+        "variance": 4204.193524095395
+      },
+      {
+        "season": "Post-Monsoon",
+        "count": 658,
+        "mean": 95.8145896656535,
+        "std": 67.06435469860536,
+        "variance": 4497.62767114035
+      },
+      {
+        "season": "Summer",
+        "count": 2794,
+        "mean": 114.6546170365068,
+        "std": 81.62554487341966,
+        "variance": 6662.729575882646
+      },
+      {
+        "season": "Winter",
+        "count": 3060,
+        "mean": 98.77973856209151,
+        "std": 70.59650005584065,
+        "variance": 4983.865820134309
+      }
+    ]
+  },
+  "promotion_t_test": {
+    "promo_yes_mean": 133.95224559408754,
+    "promo_yes_std": 89.61435396161,
+    "promo_no_mean": 83.21413144091329,
+    "promo_no_std": 52.87959263281827,
+    "uplift_pct": 60.97295408196523,
+    "t_statistic": 30.797681327577934,
+    "p_value": 1.7636704326541278e-190
+  },
+  "region_breakdown": [
+    {
+      "region": "Central",
+      "count": 813,
+      "mean": 100.0750307503075,
+      "std": 73.16275485811654,
+      "variance": 5352.788698428856
+    },
+    {
+      "region": "East",
+      "count": 1186,
+      "mean": 110.29848229342328,
+      "std": 77.64375173411335,
+      "variance": 6028.552183348631
+    },
+    {
+      "region": "North",
+      "count": 2046,
+      "mean": 103.66373411534701,
+      "std": 74.64483680829896,
+      "variance": 5571.851662137584
+    },
+    {
+      "region": "South",
+      "count": 4003,
+      "mean": 96.09367974019486,
+      "std": 68.7693961918967,
+      "variance": 4729.229852598058
+    },
+    {
+      "region": "West",
+      "count": 1952,
+      "mean": 103.33196721311475,
+      "std": 72.31000267282018,
+      "variance": 5228.73648654326
+    }
+  ],
+  "correlations_with_demand": {
+    "Selling_Price_INR": -0.3230013956309102,
+    "MRP_INR": -0.2876820373377974,
+    "Discount_pct": 0.3483267337272385,
+    "Competitor_Price_INR": -0.319088814586742,
+    "Opening_Stock": 0.8379330251486012,
+    "Customer_Footfall": 0.4341618887051761,
+    "Temperature_C": 0.04982673762717731,
+    "Rainfall_mm": -0.07645699070057752,
+    "Humidity_pct": -0.08221730701534859,
+    "Lead_Time_Days": 0.01217452826276609,
+    "Prev_Day_Demand": 0.5188724902965703,
+    "7_Day_Avg_Demand": 0.660597443448041,
+    "30_Day_Avg_Demand": 0.6670776265177935
+  },
+  "price_elasticity": {
+    "price_elasticity_coefficient": -0.3559138383693022,
+    "r_squared": 0.17842265910947566,
+    "p_value": 0.0,
+    "interpretation": "Inelastic (< 1)"
+  },
+  "product_master_summary": {
+    "total_products": 50,
+    "categories_count": 9,
+    "brands_count": 21,
+    "mrp_statistics": {
+      "min_mrp": 20.0,
+      "max_mrp": 560.0,
+      "mean_mrp": 135.74,
+      "median_mrp": 105.0,
+      "std_mrp": 111.87763176701552
+    },
+    "category_distribution": {
+      "Beverages": 11,
+      "Snacks": 8,
+      "Staples": 7,
+      "Personal Care": 7,
+      "Household": 5,
+      "Dairy": 4,
+      "Packaged Food": 3,
+      "Health Food": 3,
+      "Cooking Oil": 2
+    },
+    "brand_distribution": {
+      "HUL": 9,
+      "Tata": 5,
+      "Coca-Cola": 5,
+      "PepsiCo": 4,
+      "Amul": 3,
+      "Nestle": 3,
+      "Reckitt": 3,
+      "ITC": 2,
+      "Adani Wilmar": 2,
+      "Britannia": 2,
+      "Dabur": 2,
+      "Parle": 1,
+      "Colgate": 1,
+      "KRBL": 1,
+      "Haldiram's": 1,
+      "Patanjali": 1,
+      "MTR": 1,
+      "Mother Dairy": 1,
+      "Zydus": 1,
+      "Mondelez": 1,
+      "Marico": 1
+    }
+  }
+}
